@@ -1,12 +1,12 @@
 let selectedEmojiIndex = 0;
 let selectedEmoji = '🍭';
-let emojiOptions = ['🍭', '🌈', '🍬', '👾', '🚀', '🕹️', '🌿', '🍕', '🌸','🍒','❄️'];
+let emojiOptions = ['🍭', '🌈', '🍬', '👾', '🚀', '🕹️', '🌿', '🍕', '🌸','🍒','❄️', '❤️', '🌞','🌡️','😎','💧'];
 let emojiButtons = [];
 let isDrawing = false;
 let menuBarY = 50;
 
 function setup() {
-  createCanvas(1100, 800);
+  createCanvas(1600, 1100);
   background(255);
   textSize(30);
   textAlign(CENTER, CENTER);
