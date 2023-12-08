@@ -6,7 +6,7 @@ let isDrawing = false;
 let menuBarY = 50;
 
 function setup() {
-  createCanvas(1700, 1100);
+  createCanvas(1700, 900);
   background(255);
   textSize(30);
   textAlign(CENTER, CENTER);
